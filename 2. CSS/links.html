@@ -2,27 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>floating</title>
+        <title>links</title>
         <style>
+            a:link{
+                color:aqua;
+            }
+            a:hover{
+                font-size: 3em;
+            }
             .bluebox{
                 background-color: #3A5795;
                 color: white;
                 height:100px;
                 width:auto;
-                float:left;
+            }
+            div.bluebox a:active{
+                font-size: 4em;
             }
             .yellowbox{
                 background-color: rgb(222, 224, 85);
                 height: 100px;
                 width:auto;
-                float:right;
+            }
+            div.yellowbox a:visited{
+                color:brown;
+                /*font-size will not work*/
             }
             .greenbox{
                 background-color: rgb(44, 168, 168);
                 height: 100px;
                 width: auto;
-                clear: both;
-                /* clear: does not allow floating at choosen side */
             }
             .great{
                 background-color: #5a3479;
@@ -32,13 +41,16 @@
 
     <body> 
         <div class="bluebox">
-            <p>Facebook is <span class="great">great</span>.</p>
+            <p>Facebook.</p>
+            <p><a href="http://www.amazon.com">Visit Link.</a></p>
         </div>
         <div class="yellowbox">
             <p>Apple.</p>
+            <p><a href="http://www.ebay.com">Visit Link.</a></p>
         </div>
         <div class="greenbox">
             <p>Microsoft.</p>
+            <p><a href="http://www.cnn.com">Visit Link.</a></p>
         </div>
     </body>
 </html>

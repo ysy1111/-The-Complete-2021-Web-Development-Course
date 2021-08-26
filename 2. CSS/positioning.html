@@ -2,27 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>floating</title>
+        <title>positioning</title>
         <style>
             .bluebox{
                 background-color: #3A5795;
                 color: white;
                 height:100px;
                 width:auto;
-                float:left;
+                position:fixed;
+                top: 30px;
+                left: 30px;
+                z-index: 1;
             }
             .yellowbox{
                 background-color: rgb(222, 224, 85);
                 height: 100px;
                 width:auto;
-                float:right;
+                position: relative;
+                top: 40px;
+                left: 40px;
+                z-index: 2;
             }
             .greenbox{
                 background-color: rgb(44, 168, 168);
                 height: 100px;
                 width: auto;
-                clear: both;
                 /* clear: does not allow floating at choosen side */
+                position: absolute;
+                top: 70px;
+                left: 60px;
+                z-index: 3
             }
             .great{
                 background-color: #5a3479;
