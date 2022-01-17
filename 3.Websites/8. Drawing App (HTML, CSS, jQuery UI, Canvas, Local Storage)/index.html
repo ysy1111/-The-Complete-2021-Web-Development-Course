@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+
+    <title>Our lovely course</title>
+  </head>
+  <body>
+      <!-- title -->
+    <div class="container">
+        <h1 id="myHeader">Drawing App</h1>
+    </div>
+    
+    <!-- input -->
+    <div class="inputsContainer">
+        <!-- color -->
+        <div class="input" id="colorInput" style="margin-top: 10px;">
+            <input type="color" list id="paintColor">
+        </div>
+        <!-- Size -->
+        <div class="input" id="thickness">
+            <div id="circle">
+
+            </div>
+        </div>
+        <div class="input">
+            <div id="slider"></div>
+        </div>
+    </div>
+
+
+    <!-- canvas container -->
+    <div id="container">
+        <canvas id="paint" width="598px" height="498px"></canvas>
+    </div>
+
+
+    <!-- create buttons -->
+    <div class="inputsContainer2">
+        <!-- Erase -->
+        <div class="input2">
+            <span id="erase" class="button">Erase</span>
+        </div>
+        <!-- Save -->
+        <div class="input2">
+            <span id="save" class="button">Save</span>
+        </div>
+        <!-- Reset -->
+        <div class="input2">
+            <span id="reset" class="button">Reset</span>
+        </div>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js">
+</script>
+<script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+    <title>Our lovely course</title>
+  </head>
+  <body>
+    <!-- create the header -->
+    <div class="container">
+      <h1>Stopwatch</h1>
+    </div>
+<!-- creater the lap area -->
+    <div class="container" id="laptimecontainer" style="width:300px;">
+      <span id="laptime">00:00:00</span>
+    </div>
+<!-- create the main time area -->
+    <div class="container" id="mainwatch">
+      <span id="watchtime">00:00:00</span>
+    </div>
+<!-- create the button -->
+    <div class="container" id="buttons">
+      <div class="row" id="buttonrow">
+        <div class="col-sm-6"><button type="button" class="btnn" id="startstopresume">Start</button></div>
+        <div class="col-sm-6"><button type="button" class="btnn" id="lapreset">Lap</button></div>
+      </div>
+    </div>
+<!-- create the lap time recording area -->
+    <div class="container" id="lapRetrieve">
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+<script src="js/bootstrap.min.js">
+</script>
+<script src="javascript.js"></script>
+  </body>
+</html>

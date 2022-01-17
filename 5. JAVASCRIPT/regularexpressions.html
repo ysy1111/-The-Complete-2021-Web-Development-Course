@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Regular Expression</title>
+    </head>
+    <body>
+        <p>String: <span id="string"></span></p>
+        <p>Pattern: <span id="pattern"></span></p>
+        <p>Result(search): <span id="search"></span></p>
+        <p>Result(match): <span id="match"></span></p>
+        <p>Result(test): <span id="test"></span></p>
+        <script>
+            var str = "ABtlanta \n5783 75%";
+            // ** "i" = case insensitive
+            // ** "g" = global
+            // var pattern = /a/g;
+            // var pattern = /[a-z]/g;
+            // var pattern = /[^atn]/g;
+            // var pattern = /[4-7]/g;
+            // var pattern = /\d/g;
+            // var pattern = /\d{3}/g;
+
+            // var pattern = /\w/g;
+            // var pattern = /\s/g;
+            // ** whether str contain A as the first character
+            // var pattern = /^A/g;
+            var pattern = /\n/g;
+            // var pattern = new RegExp("a", "g");
+            // var pattern = new RegExp("[a-z]", "g");
+            document.getElementById("string").innerHTML = str;
+            document.getElementById("pattern").innerHTML = pattern;
+            document.getElementById("search").innerHTML = str.search(pattern);
+            document.getElementById("match").innerHTML = str.match(pattern);
+            document.getElementById("test").innerHTML = pattern.test(str);
+            // window.alert(str.search(pattern))
+            // window.alert(str.match(pattern))
+            // window.alert(pattern.test(str))
+        </script>
+    </body>
+</html>

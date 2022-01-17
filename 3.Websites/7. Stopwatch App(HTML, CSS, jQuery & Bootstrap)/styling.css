@@ -1,0 +1,69 @@
+
+/* style the body: set up the background image */
+body{
+  background: url("images/bg-device.png") center center fixed;
+  background-size: cover;
+}
+
+/* style the head */
+.container h1{
+  color: white;
+  text-align: center;
+  font-size:120px;
+}
+
+/* style the lap time area */
+#laptimecontainer{
+  position: relative;
+  margin-right: 10px;
+}
+
+#laptime{
+  color: white;
+  font-size: 70px;
+}
+
+/* style the main time area */
+#mainwatch{
+  text-align: center;
+  color: white;
+  font-size: 150px;
+}
+
+/* style  the button */
+
+#buttons{
+  width: 500px;
+  margin-bottom: 100px;
+}
+#buttons .row{
+  text-align: center;
+}
+.btnn{
+  border:none;
+  width: 133px;
+  height: 133px;
+  color: white;
+  background-color:#DEA14C ;
+  font-size:30px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btnn:active{
+  color: #DEA14C;
+  background-color:#fff ;
+}
+/* style the lap time recording area */
+#lapRetrieve{
+  max-height: 140px;
+  overflow-y: scroll;
+  color: #DEA14C;
+  font-size: 25px;
+}
+#lapnumber{
+  padding-right: 43%;
+}
+#laptimerecording{
+  padding-left: 40%;
+}

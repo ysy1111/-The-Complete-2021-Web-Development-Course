@@ -1,0 +1,114 @@
+/* Style body by adding backgroud image and set it to cover, add font-family*/
+
+
+
+body{
+    background: url("images/bg-dolphine.jpg") no-repeat center center  fixed;
+    background-size: cover;
+    font-family: Arvo, serif;
+}
+
+/* Style brand */
+
+/* Style navigation bar */
+#myNav{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-brand img{
+    height: 39px;
+    width: 39px;
+}
+
+.nav li{
+    font-size: 17px;
+    margin-right: 35px;
+    padding:10px 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(199, 199, 199);
+/* note !!! cannot use .nav li to change color directly!!!!!! */
+}
+
+.nav li:hover{
+    color: white;
+    border-bottom: #00E2B9 solid 1px;
+    background-color: transparent;
+    cursor: pointer;
+    padding-bottom:9px;
+}
+
+/* Style jumbotron */
+.jumbotron{
+    margin: 0;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    letter-spacing: 2.5px;
+}
+
+
+/* Limit the width of the icon section */
+.container{
+    max-width: 1000px;
+}
+/* Style icons section using bootstrap grid system */
+
+.iconstext{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+
+/* Style contact button */
+#buttonContainer{
+    text-align: center;
+    margin-top: 30px;
+}
+#intouch{
+    padding: 10px 70px;
+    font-size: large;
+    background-color: rgba(0, 226, 185, 0.5);
+    color: white;
+    border-radius: 10px;
+    border: None;
+    letter-spacing: 1.3px;
+}
+
+#intouch:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Style footer */
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: #aaa;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+.footer p{
+    margin: 0;
+}
+
+/* Use media query to change icons' size in samll devices  */
+@media (max-width: 767px) {
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    .navbar-brand img{
+        height: 25px;
+        width: 25px;
+    }
+    #intouch{
+        margin-bottom: 22px;
+    }
+}

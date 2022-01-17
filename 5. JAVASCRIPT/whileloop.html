@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>loop for</title>
+    </head>
+    <body>
+        <p id="myParagraph">Javascript.</p>
+        <p>Current Balance: $1000</p>
+        <script>
+            var i = 0;
+            while(i < 5){
+                document.getElementById("myParagraph").innerHTML += "</br>" + i;
+                i++;
+            }
+            var balance = 1000;
+            var itemsBought = 0;
+            while(balance>0){
+                var itemPrice = prompt("Enter the price of the item you want to buy.");
+                balance -= 100;
+                itemsBought++;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+// 1. use overflow:hide to hide the fruit when outside the "screen"
+// 2. use position method to access the position info: $("#fruit1").position().top

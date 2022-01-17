@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>arrays</title>
+    </head>
+    <body>
+        <p id="myParagraph">Javascript.</p>
+        <script>
+            var shoppingList = ["Milk", "Donuts", "Cookies", "Chocolate", "Peanut Butter", "Pepto Bismol", "Pepto Bismol (Chocolate flavor)", "Pepto Bismol (Cookie flavor)"];
+            // var shoppingList = new Array("Milk", "Donuts", "Cookies", "Chocolate", "Peanut Butter", "Pepto Bismol", "Pepto Bismol (Chocolate flavor)", "Pepto Bismol (Cookie flavor)");
+            document.getElementById("myParagraph").innerHTML += "</br>" + shoppingList;
+            document.getElementById("myParagraph").innerHTML += "</br>" + shoppingList[0];
+            function showResult(x){
+                document.getElementById("myParagraph").innerHTML += "</br>" + x;
+            }
+            showResult(shoppingList[1]);
+            showResult(shoppingList[2]);
+            showResult(shoppingList[3]);
+            shoppingList[1] = "Chips";
+            showResult(shoppingList[1]);
+            // only delete the content of the array, not the position
+            delete shoppingList[1];
+            showResult(shoppingList);
+            //use splice to delete the content of the array completely
+            shoppingList.splice(1, 1);
+            showResult(shoppingList);
+
+            shoppingList.splice(1,0,"banana","apple");
+            showResult(shoppingList);
+
+            shoppingList.sort();
+            showResult(shoppingList);
+            shoppingList.reverse();
+            showResult(shoppingList);
+
+            var myString = "what is the weather today";
+            var myArray = myString.split(" ",2);
+            showResult(myArray);
+        </script>
+        
+    </body>
+</html>

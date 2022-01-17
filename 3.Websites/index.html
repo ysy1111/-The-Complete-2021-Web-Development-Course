@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styling.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Vollkorn&display=swap" rel="stylesheet">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>Shuyang Ye's Personal Website</title>
+  </head>
+  <body id="home">
+    <!-- create the navbar -->
+    <nav role="navigation" class="navbar navbar-custom navbar-fixed-top" id="myNav" >
+        <div class="container-fluid" id="innernav">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#top">
+              Shuyang Ye
+            </a>
+            <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
+              <span class="sr-only">
+                Toggle navigation
+              </span>
+              <span class="icon-bar">
+              </span>
+              <span class="icon-bar">
+              </span>
+              <span class="icon-bar">
+              </span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse " id="navbarCollapse">
+          <ul class="nav navbar-nav navbar-right" style="text-align: center;">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#worksExhibition">PREVIOUS PROJECTS</a></li>
+          </ul>
+      
+        </div>
+      </div>
+    </nav>
+
+    <!-- create the intro section-->
+    <div class="container" id="infowrap">
+      <div class="row" >
+          <div class="container col-md-6" id="photoContainer">
+          </div>
+
+          <div class="container col-md-6" id="basicInfoContainer">
+            <div class="detailedInfo">
+              <h2 style="font-size: 25px;">Shuyang (Eric) Ye</h2>
+            </div>
+            <div class="detailedInfo">
+              <h4 style="font-weight:bold">Phone:</h4>
+              <p>604-780-9794</p>
+            </div>
+            
+            <div class="detailedInfo">
+              <h4 style="font-weight:bold">Email:</h4>
+              <p>ysy9498@gmail.com</p>
+            </div>
+            
+            <div class="detailedInfo">
+              <h4 style="font-weight:bold">Address:</h4>
+              <p>2875 Osoyoos Crescent</p>
+              <p>Vancouver, BC V6T2G3</p>
+            </div>
+            
+          </div>
+
+      </div>
+      <div id="socialMedia">
+          <a href="https://github.com/ysy1111" target="_blank"><img src="images/github-logo.png" class="socialLogo"></a>
+          <a href="http://www.linkedin.com/in/shuyang-ye-3240191a9" target="_blank"><img src="images/linkedIn-logo.png" class="socialLogo"></a>
+          <a href="https://www.facebook.com/shuyangYe.van" target="_blank"><img src="images/facebook-logo.png" class="socialLogo"></a>
+          <a href="https://www.instagram.com/ysy9498/" target="_blank"><img src="images/ins-logo.png" class="socialLogo"></a>
+      </div>
+    </div>
+
+    <div class="container-fluid outer-container">
+      <!-- create Jumbotron -->
+      <div class="jumbotron" id="hello">
+        <div class="container">
+          <h3 style="font-weight: bold; margin-bottom: 30px;">Hello! I'm Shuyang Ye</h3>
+          <p>Welcome to my personal webpage! You can download my full <a download href="http://shuyangye.host20.uk/ShuyangYe_CV.pdf" target="_blank">Resume</a> here.</p>
+        
+        </div>
+      </div>
+
+      <!-- create experience section -->
+      <div class="container-fuild section-title" id="experience">
+        EXPERIENCE
+      </div>
+
+      <div class="container-fuild" id="myTimeline">
+
+        <div class="container">
+          <div class="row">
+            <div class="timeline-centered">
+          
+              <article class="timeline-entry">
+                
+                <div class="timeline-entry-inner">
+                  <time class="timeline-time"><span>2017-2021</span><span>Teaching Assistance</span></time>
+                  
+                  <div class="timeline-icon bg-primary">
+                    <i class="entypo-feather"></i>
+                  </div>
+                  
+                  <div class="timeline-label">
+                    <h2><a href="https://www.ubc.ca/"  target="_blank">University of British Columbia</a></h2>
+                    <p>My classes are first year lab and second year physical chemistry. I instructed students on how to do the experiments correctly, as well as being responsible for answering students' questions. I really enjoy communicating and sharing knowledge with students!</p>
+                  </div>
+                </div>
+                
+              </article>
+              
+              
+              <article class="timeline-entry">
+                
+                <div class="timeline-entry-inner">
+                  <time class="timeline-time"  target="_blank"><span>2017-2021</span><span>Researching Assistance</span></time>
+                  
+                  <div class="timeline-icon bg-primary">
+                    <i class="entypo-suitcase"></i>
+                  </div>
+                  
+                  <div class="timeline-label">
+                    <h2><a href="https://www.ubc.ca">University of British Columbia</a></h2>
+                    <h2><a href="https://groups.chem.ubc.ca/wang/" style="font-size: 14px;"  target="_blank">Dr. Wang's Group</a></h2>
+                    <p>My research focused on developing new methods in quantum chemistry theory. My major contribution is the exploration of two new exchange-correlation functional approximations in density functional theory. I identified the advantages and drawbacks of our models through both theoretical analysis and computational simulations.</p>
+                  </div>
+                </div>
+                
+              </article>
+        
+        
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- create education section -->
+      <div class="container-fuild section-title" id="education">
+        EDUCATION
+      </div>
+      
+      <div class="container-fuild" id="myTimeline">
+      
+        <div class="container">
+          <div class="row">
+            <div class="timeline-centered">
+          
+              <article class="timeline-entry">
+                
+                <div class="timeline-entry-inner">
+                  <time class="timeline-time"><span>2022-present</span><span>Master's Degree</span></time>
+                  
+                  <div class="timeline-icon bg-primary">
+                    <i class="entypo-feather"></i>
+                  </div>
+                  
+                  <div class="timeline-label">
+                    <h2><a href="https://www.gatech.edu/"  target="_blank"> Georgia Institute of Technology</a></h2>
+                    <h2><a href="https://www.cc.gatech.edu/" style="font-size: 14px;"  target="_blank"> College of Computing</a></h2>
+                    <p></p>
+                  </div>
+                </div>
+                
+              </article>
+              
+              
+              <article class="timeline-entry">
+                
+                <div class="timeline-entry-inner">
+                  <time class="timeline-time"><span>2017-2021</span><span>Master's Degree</span></time>
+                  
+                  <div class="timeline-icon bg-primary">
+                    <i class="entypo-suitcase"></i>
+                  </div>
+                  
+                  <div class="timeline-label">
+                    <h2><a href="https://www.ubc.ca/"  target="_blank">University of British Columbia</a></h2>
+                    <h2><a href="https://www.chem.ubc.ca/" style="font-size: 14px;"  target="_blank">Department of Chemistry</a></h2>
+                    <p></p>
+                  </div>
+                </div>
+                
+              </article>
+
+
+              <article class="timeline-entry">
+                
+                <div class="timeline-entry-inner">
+                  <time class="timeline-time"><span>2013-2017</span><span>Bachelor's Degree</span></time>
+                  
+                  <div class="timeline-icon bg-primary">
+                    <i class="entypo-suitcase"></i>
+                  </div>
+                  
+                  <div class="timeline-label">
+                    <h2><a href="https://en.ustc.edu.cn/"  target="_blank"> University of Science and Technology of China</a></h2>
+                    <h2><a href="https://en.physics.ustc.edu.cn/" style="font-size: 14px;"  target="_blank">School of Physical Sciences</a></h2>
+                    <p></p>
+                  </div>
+                </div>
+                
+              </article>
+        
+        
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- create the skill section -->
+      <div class="container-fuild section-title" id="skills">
+        SKILLS
+      </div>
+
+      <div class="container-fuild">
+        <div class="grid-container">
+          <div class="grid-item">Python</div>
+          <div class="grid-item">HTML</div>
+          <div class="grid-item">Javascript</div>
+          <div class="grid-item">CSS</div>
+          <div class="grid-item">jQuery</div>
+          <div class="grid-item">Node.js</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item">Linux</div>
+          <div class="grid-item">Git</div>
+        </div>
+      </div>
+
+      <!-- create the work exhibition section -->
+      <div class="container-fuild section-title" id="worksExhibition">
+        PREVIOUS PROJECTS
+      </div>
+      <div class="container-fuild" id="worksExhibitionContariner">
+        <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="images/drawingApp-proj.png" alt="Drawing App">
+            <div class="caption">
+              <h3>
+                Course Project: Drawing App
+              </h3>
+              <p>
+                A static webpage using jQueryUI, Canvas & Local Storage. It allows users to draw pictures.
+              </p>
+              <p>
+                <a href="http://shuyangye.host20.uk/websites/8.DrawingApp/" class="btn btn-primary" role="button">
+                  Learn More
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="images/stopWatch-proj.png" alt=" Stopwatch App">
+            <div class="caption">
+              <h3>
+                Course Project: Stopwatch App
+              </h3>
+              <p>
+                A static webpage using jQuery & Bootstrap. It performs all the functions of a stopwatch.
+              </p>
+              <p>
+                <a href="http://shuyangye.host20.uk/websites/7.StopwatchApp/" class="btn btn-primary" role="button">
+                  Learn More
+                </a>
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="images/ourLovelyCourse-proj.png" alt="Our Lovely Course">
+          <div class="caption">
+            <h3>
+              Course Project: Our Lovely Course
+            </h3>
+            <p>
+              A static webpage using jQuery & Bootstrap.
+            </p>
+            <p>
+              <a href="http://shuyangye.host20.uk/websites/6.OurLovelyCourse/" class="btn btn-primary" role="button">
+                Learn More
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/companyWeb-proj.png" alt="Company Webpage">
+              <div class="caption">
+                <h3>
+                  Course Project: Company Webpage
+                </h3>
+                <p>
+                  A static webpage using Bootstrap.
+                </p>
+                <p>
+                  <a href="http://shuyangye.host20.uk/websites/5.CompanyWebsite/" class="btn btn-primary" role="button">
+                    Learn More
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/landingPage-proj.png" alt="App Landing Page">
+              <div class="caption">
+                <h3>
+                  Course Project: App Landing Page
+                </h3>
+                <p>
+                  A static webpage using Bootstrap.
+                </p>
+                <p>
+                  <a href="http://shuyangye.host20.uk/websites/4.AppLandingPage/" class="btn btn-primary" role="button">
+                    Learn More
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/fruitGame-proj.png" alt="Fruit Slice Game">
+              <div class="caption">
+                <h3>
+                  Course Project: Fruit Slice Game
+                </h3>
+                <p>
+                  A static webpage with jQuery. It is a simplified version of the famous game: fruit Ninja.
+                </p>
+                <p>
+                  <a href="http://shuyangye.host20.uk/websites/3.FruitSliceGame/" class="btn btn-primary" role="button">
+                    Learn More
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/mathGame-proj.png" alt="Math Game">
+              <div class="caption">
+                <h3>
+                  Course Project: Math Game
+                </h3>
+                <p>
+                  A static webpage with Javascript allows users to play multiplication games within ten.
+                </p>
+                <p>
+                  <a href="http://shuyangye.host20.uk/websites/2.MathGame/" class="btn btn-primary" role="button">
+                    Learn More
+                  </a>
+                </p>
+              </div>
+            </div>
+            </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="images/mathwebsite-proj.png" alt="Math Website">
+              <div class="caption">
+                <h3>
+                  Course Project: Math Website
+                </h3>
+                <p>
+                  A static webpage using HTML and CSS. It is a homepage of a math course.
+                </p>
+                <p>
+                  <a href="http://shuyangye.host20.uk/websites/1.Math_Websites_HTML_CSS/" class="btn btn-primary" role="button">
+                    Learn More
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        
+        </div>
+
+
+
+
+
+      </div>
+
+      <div class="footer">
+        <div class="container">
+            <p>Created by Shuyang Ye. &copy; 2022 </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+  </body>
+
+</html>

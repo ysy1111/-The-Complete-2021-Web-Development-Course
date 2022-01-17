@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Math Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styling.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="score">
+                Score: <span id="scorevalue">0</span>
+            </div>
+            <div id="correct">
+               Correct
+            </div>
+            <div id="wrong">
+                Try again
+            </div>
+            
+            <div id="question">
+            </div>
+
+            <div id="instruction">
+                <p>
+                    Click on the correct answer
+                </p>
+            </div>
+            <div id="choices">
+                <div id="box0" class="box" onClick="check(this.id)"></div>
+                <div id="box1" class="box" onClick="check(this.id)"></div>
+                <div id="box2" class="box" onClick="check(this.id)"></div>
+                <div id="box3" class="box" onClick="check(this.id)"></div>
+            </div>
+
+            <div id="resetstart" onclick="startGame()">Start Game</div>
+
+            <div id="timeremaining">
+                Time remaining: <span id="timeremainingvalue"> </span> sec
+            </div>
+
+            <div id="gameover">
+            </div>
+    </body>
+    <script src="javascripts.js"></script>
+</html>

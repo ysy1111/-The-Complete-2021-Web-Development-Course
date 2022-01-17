@@ -1,0 +1,8 @@
+1. radial-gradient belongs to background-image (one of the properties of background)
+2. when use "radial-gradient" to stylize html, "circle" effect is valid only with "height" property
+3. to center a div: try example "margin: 100px auto;", the key is setting left-right margin to auto.
+
+4. box-shadow: [offsetX, offsetY, blurRadius, spreadRadius, color]
+5. when using "position: absolute", it will refer to the first parent with relative, otherwise it will refer to the body.
+
+6. use "diplay: none" to hide an element or use "visibility: hidden" to hide an element. The difference is that "display: none" will not affect the layout of the page, while "visibility: hidden" will affect the layout of the page.
